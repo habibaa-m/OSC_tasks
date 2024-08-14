@@ -1,0 +1,15 @@
+mkdir habiba
+cd habiba
+touch one.txt two.txt three.txt four.txt
+mkdir BAD
+touch bad.txt
+cd ~/habiba/
+mv one.txt ~/Downloads/
+cd ~/Downloads/
+cp one.txt copy.txt
+cd ~/habiba/
+nano two.txt
+nano three.txt
+mv three.txt hello.txt
+rm four.txt
+rm -r BAD
