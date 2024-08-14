@@ -2,6 +2,7 @@ mkdir habiba
 cd habiba
 touch one.txt two.txt three.txt four.txt
 mkdir BAD
+cd BAD
 touch bad.txt
 cd ~/habiba/
 mv one.txt ~/Downloads/
