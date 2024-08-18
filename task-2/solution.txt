@@ -1,0 +1,18 @@
+git config --global user.name habibaa_m
+git config --global user.email hmokhtar927@gmail.com
+git clone https://github.com/habibaa-m/OSC_tasks.git
+cd OSC_tasks
+mkdir task-2
+cd task-2
+touch greeting.txt
+nano greeting.txt
+git add greeting.txt
+git commit -m "Added greeting"
+git checkout -b intro
+nano greeting.txt
+git add greeting.txt
+git commit
+git checkout main
+git merge intro
+git tag v1
+git push origin main
